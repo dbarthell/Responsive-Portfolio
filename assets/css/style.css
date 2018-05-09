@@ -24,6 +24,10 @@ p {
     margin-bottom: 20px;
 }
 
+p {
+    font-size: 15px;
+}
+
 #Dan {
     float: right;
     height: 150px;
@@ -44,14 +48,14 @@ h3 {
 
 h1 {
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
 }
 
 h2,
 h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #masthead {
@@ -70,7 +74,7 @@ h3 {
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 90px;
     color: #fff;
@@ -92,6 +96,7 @@ nav a {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    font-size: 15px;
 }
 
 nav a:first-child {
