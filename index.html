@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,16 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Dan Barthell</a>
             <nav>
                 <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>                
+                <a href=#portfolio>Portfolio</a>
+                <a href=#contact>Contact</a>
             </nav>
         </div>
     </header>
@@ -28,7 +30,9 @@
 
             <img src="assets/imgs/Dan.jpg" id="Dan" alt="Dan">
 
-            <p>Technical Recruiter at Amazon. Currently support a new Seattle-based robotics team. Always learning. Pursuing an MBA from the University of Minnesota, Carlson School of Management. Interested in moving into Product Management after receiving my Coding Boot Camp certification. </p>
+            <p>Technical Recruiter at Amazon. Currently support a new Seattle-based robotics team. Always learning. Pursuing
+                an MBA from the University of Minnesota, Carlson School of Management. Interested in moving into Product
+                Management after receiving my Coding Boot Camp certification. </p>
 
         </section>
         <aside>
@@ -37,6 +41,69 @@
             <a href="https://www.linkedin.com/in/danbarthell/" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-stack-overflow"></a>
         </aside>
+        <section id="portfolio" class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="work">
+                <a href="https://dbarthell.github.io/GroupProject1/">
+                    <img src="assets/imgs/donna.png" alt="Travel with Donna">
+                </a>
+                <h3>Travel with Donna</h3>
+            </div>
+            <div class="work">
+                <a href="https://dbarthell.github.io/TriviaGame/">
+                    <img src="assets/imgs/golf.png" alt="Jeopardy">
+                </a>
+                <h3>Golf Jeopardy</h3>
+            </div>
+            <div class="work">
+                <a href="https://dbarthell.github.io/week-4-game/">
+
+                    <img src="assets/imgs/crystals.png" alt="Crystal Collector">
+                </a>
+
+                <h3>Crystal Collector</h3>
+            </div>
+            <div class="work">
+                <a href="https://dbarthell.github.io/Hangman-Game/">
+
+                    <img src="assets/imgs/hangman.png" alt="Hangman">
+                </a>
+
+                <h3>Hangman</h3>
+            </div>
+            <div class="work">
+                <a href="https://dbarthell.github.io/Bootstrap-Portfolio/">
+
+                    <img src="assets/imgs/bootstrap.png" alt="Bootstrap">
+                </a>
+
+                <h3>Bootstrap Portfolio</h3>
+            </div>
+
+        </section>
+        <section id="contact" class="main-section">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="jdoe@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+
+        </section>
     </div>
 
     <footer>
@@ -46,4 +113,5 @@
     </footer>
 
 </body>
+
 </html>
